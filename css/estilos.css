@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(33, 29, 29);
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(203, 201, 208, 0.581);
+    width: 250px;
+    height: 250px;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: rgb(93, 171, 255);
+    color: white;
+  }
+  hr {
+    background: rgb(29, 29, 89);
+    border: none;
+    height: 1px;
+    margin: 10px;
+  }
+  input,
+  select,
+  button {
+    width: 150px;
+    height: 25px;
+    border-radius: 2px;
+    border: none;
+  }
+  h2 {
+    padding: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+  ::placeholder {
+    color: rgb(176, 176, 188);
+    font-size: 11px;
+  }
+  
+  .Grafico {
+      padding:15px;
+      width: 600px;
+      margin: 15px;
+  }
